@@ -1,0 +1,23 @@
+.footer{
+    text-align: center;
+    &__info{
+        background-color: $jelly-bean;
+        color: $white;
+        padding: 20px;
+    }
+    &__buttom{
+        text-decoration: none;
+        color: gray;
+        background-color: #fff;
+        border: solid 1px;
+        border-radius: 50px;
+        padding: 10px;
+    }
+}
+.copy{
+    background-color: gray;
+    padding: 20px;
+    &__img{
+        width: 100px;
+    }
+}

@@ -1,0 +1,44 @@
+.hero-text{
+    background-color: $jelly-bean;
+    text-align: center;
+    padding: 100px;
+    &__title{
+        color: $white;
+        font-weight: $ligth;
+    }
+    &__bold{
+        font-weight: $bold;
+    }
+}
+.section-grey{
+    text-align: center;
+    padding-top: 50px;
+    color: $white;
+    background-color: $taupe-gray;
+    &__image{
+        width: 700px;
+    }
+    &__text{
+        padding: 20px;
+    }
+}
+.section-white{
+    text-align: center;
+    padding-top: 50px;
+    &__image{
+        width: 700px;
+    }
+}
+
+.about{
+    text-align: center;
+    &__title{
+        background-color: $jelly-bean;
+        color: $white;
+        padding: 20px;
+    }
+    &__img{
+        width: 350px;
+    }
+    
+}
